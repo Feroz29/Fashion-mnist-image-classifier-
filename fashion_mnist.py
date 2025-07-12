@@ -8,7 +8,7 @@ Original file is located at
 """
 
 import numpy as np
-import matplotlib.pyplot as plt
+import matplotlib.pyplot as pl
 import tensorflow as tf
 from tensorflow.keras import layers, models
 from tensorflow.keras.datasets import fashion_mnist
@@ -85,7 +85,6 @@ model = load_model("fashion_mnist_model.h5")
 
 
 import streamlit as st
-import matplotlib.pyplot as plt
 from PIL import Image
 from tensorflow.keras.models import load_model
 
