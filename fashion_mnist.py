@@ -13,7 +13,7 @@ import tensorflow as tf
 from tensorflow.keras import layers, models
 from tensorflow.keras.datasets import fashion_mnist
 
-!pip install streamlit
+
 
 (x_train,y_train),(x_test,y_test)=fashion_mnist.load_data()
 x_train = x_train / 255.0
