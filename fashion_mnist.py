@@ -83,7 +83,6 @@ model = load_model("fashion_mnist_model.h5")
 
 
 
-pip install Matplotlib
 
 import streamlit as st
 import matplotlib.pyplot as plt
