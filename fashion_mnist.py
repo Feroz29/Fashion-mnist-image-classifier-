@@ -13,6 +13,8 @@ import tensorflow as tf
 from tensorflow.keras import layers, models
 from tensorflow.keras.datasets import fashion_mnist
 
+!pip install streamlit
+
 (x_train,y_train),(x_test,y_test)=fashion_mnist.load_data()
 x_train = x_train / 255.0
 x_test = x_test / 255.0
@@ -79,7 +81,7 @@ model.save('fashion_mnist_model.h5')
 from tensorflow.keras.models import load_model
 model = load_model("fashion_mnist_model.h5")
 
-pip install streamlit
+
 
 pip install Matplotlib
 
