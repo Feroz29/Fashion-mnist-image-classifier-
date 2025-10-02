@@ -130,5 +130,3 @@ if uploaded_file is not None:
     plt.xticks(rotation=45)
     st.pyplot(fig)
 
-from google.colab import files
-files.download("fashion_mnist_model.h5")
